@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
 
 	}
 	else if (strcmp(op, "div") == 0) {
-		r = _div(atof(a));
+		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
 
