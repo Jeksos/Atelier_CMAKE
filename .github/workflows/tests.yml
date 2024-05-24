@@ -72,4 +72,11 @@ jobs:
           cd build
           cmake ..
           make
-          ./src/calculator sub 10 5          
+          ./src/calculator sub 10 5    
+
+  Deployement:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compilation
+        run: |
+          echo "Déploiement de la solution"
